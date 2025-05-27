@@ -6,9 +6,9 @@ title: Tomer Ashuach # the website title (if blank, full name will be used inste
 first_name: Tomer
 last_name: Ashuach
 contact_note: >
-  Feel free to reach out via email for any inquiries.
+  Feel free to reach out via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a researcher in the field of Natural Language Processing. This website showcases my work and publications.
+  I am a researcher in the field of Natural Language Processing.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
