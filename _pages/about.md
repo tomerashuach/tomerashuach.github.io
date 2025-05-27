@@ -17,16 +17,14 @@ announcements:
 latest_posts:
   enabled: false # Temporarily disabling latest_posts
 ---
-
-Tomer Ashuach is a researcher at the Technion – Israel Institute of Technology. His work focuses on Natural Language Processing (NLP), particularly on making Language Models (LMs) safer and more reliable.
-
-His recent research includes REVS (Rank Editing in the Vocabulary Space), a novel method for unlearning sensitive information from LMs. This addresses privacy concerns by preventing models from inadvertently divulging sensitive or personally identifiable information (PII) seen in training data.
+I'm a PhD student at the Technion, advised by Prof [Yonatan Belinkov](https://belinkov.com/). My research focuses on the interpretability of language models, with particular emphasis on uncovering their internal mechanisms and understanding how knowledge is acquired and can be unlearned.
 
 ### Research Interests
 - Natural Language Processing (NLP)
 - Language Models (LMs)
-- Privacy in AI
-- Model Unlearning
-- AI Safety and Reliability
+- Interpretability
+- Knowledge and Unlearning in LMs
+- AI Safety and Alignment
 
-For more details on his work, you can refer to the [REVS paper](https://arxiv.org/abs/2406.09325v2).
+## Publications
+{% bibliography --query @* %}

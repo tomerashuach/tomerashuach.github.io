@@ -6,16 +6,16 @@ title: Tomer Ashuach # the website title (if blank, full name will be used inste
 first_name: Tomer
 last_name: Ashuach
 contact_note: >
-  Feel free to reach out via email for any inquiries.
+  Feel free to reach out via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Tomer Ashuach is a researcher in the field of Natural Language Processing. This website showcases his work and publications.
+  I am a researcher in the field of Natural Language Processing.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: TA # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://tomerashuach.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -47,7 +47,7 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
@@ -143,7 +143,7 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false # Disables the books collection
   news:
     defaults:
       layout: post
