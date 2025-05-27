@@ -3,7 +3,9 @@ layout: profiles
 permalink: /people/
 title: people
 description: members of the lab or group
-nav: true
+nav: false
+published: false
+nav_exclude: true
 nav_order: 7
 
 profiles:
