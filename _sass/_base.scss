@@ -694,6 +694,11 @@ footer.sticky-bottom {
 
 // Publications
 
+.publications-wrapper ol {
+  list-style: none !important;
+  padding-left: 0;
+}
+
 .publications {
   margin-top: 2rem;
 
@@ -797,10 +802,13 @@ footer.sticky-bottom {
           padding-bottom: 0.25rem;
           margin-left: 0;
           background-color: var(--global-bg-color);
+          display: inline-block;
 
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
+            background-color: var(--global-theme-color);
+            color: var(--global-bg-color);
           }
         }
         a.award.btn {
