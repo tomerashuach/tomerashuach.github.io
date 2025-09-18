@@ -27,4 +27,6 @@ I'm a PhD student at the Technion, advised by Prof [Yonatan Belinkov](https://be
 - AI Safety and Alignment
 
 ## Publications
+<div class="publications-wrapper">
 {% bibliography --query @* %}
+</div>
