@@ -20,13 +20,11 @@ latest_posts:
 I'm a PhD student at the Technion, advised by Prof [Yonatan Belinkov](https://belinkov.com/). My research focuses on the interpretability of language models, with particular emphasis on uncovering their internal mechanisms and understanding how knowledge is acquired and can be unlearned.
 
 ### Research Interests
-- Natural Language Processing (NLP)
-- Language Models (LMs)
-- Interpretability
-- Knowledge and Unlearning in LMs
+- Interpretability in LLMs
+- Knowledge and Unlearning in LLMs
 - AI Safety and Alignment
 
 ## Publications
-<div class="publications-wrapper">
+<div class="publications">
 {% bibliography --query @* %}
 </div>
