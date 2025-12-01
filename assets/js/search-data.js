@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "Research publications by Tomer Ashuach on Natural Language Processing, AI Safety, Language Model Interpretability, and Machine Unlearning.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
