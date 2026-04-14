@@ -5,5 +5,10 @@
 "PhysRev":
   url: https://journals.aps.org/
 
-"Vision":
   color: "#009f36"
+
+"ACL 2026":
+  color: "#005bb5"
+
+"ACL Findings 2025":
+  color: "#005bb5"

@@ -4,22 +4,42 @@
   title={{REVS}: Unlearning Sensitive Information in Language Models via Rank Editing in the Vocabulary Space},
   author={Ashuach, Tomer and Tutek, Martin and Belinkov, Yonatan},
   booktitle={Findings of the Association for Computational Linguistics: ACL 2025},
-  year={2024},
+  year={2025},
+  month={May},
+  abbr={ACL Findings 2025},
+  website={https://technion-cs-nlp.github.io/REVS/},
   url={https://technion-cs-nlp.github.io/REVS/},
-  pdf={https://arxiv.org/pdf/2406.09325v3},
+  pdf={REVS__Unlearning_Sensitive_Information_in_Language_Models_via_Rank_Editing_in_the_Vocabulary_Space_ACL_2025.pdf},
   code={https://github.com/Tomertech/REVS},
   preview={revs.png},
-  abstract={Language models (LMs) risk inadvertently memorizing and divulging sensitive or personally identifiable information (PII) seen in training data, causing privacy concerns. Current approaches to address this issue involve costly dataset scrubbing, or model filtering through unlearning and model editing, which can be bypassed through extraction attacks. We propose REVS, a novel non-gradient-based method for unlearning sensitive information from LMs. REVS identifies and modifies a small subset of neurons relevant for constituent tokens that form sensitive information. To adequately evaluate our method on truly sensitive information, we curate three datasets: email and URL datasets naturally memorized by the models, and a synthetic social security number dataset that we tune the models to memorize. Compared to other methods, REVS demonstrates superior performance in unlearning sensitive information and robustness to extraction attacks, while retaining underlying model integrity.}
+  abstract={We propose REVS, a non-gradient-based method that unlearns sensitive information from language models by identifying and modifying a small subset of relevant neurons. REVS achieves robust unlearning and resists extraction attacks while preserving the model's underlying integrity.}
 }
 
-@article{ashuach2025crisp,
+@inproceedings{ashuach2026masked,
+  title={Masked by Consensus: Disentangling Privileged Knowledge in LLM Correctness},
+  author={Ashuach, Tomer and Ein-Dor, Liat and Gretz, Shai and Katz, Yoav and Belinkov, Yonatan},
+  booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics: ACL 2026},
+  year={2026},
+  month={12},
+  abbr={ACL 2026},
+  website={https://technion-cs-nlp.github.io/Privileged-Knowledge/},
+  url={https://tomerashuach.github.io/},
+  pdf={Masked_by_Consensus__Disentangling_Privileged_Knowledge_in_LLM_Correctness.pdf},
+  preview={pk.png},
+  abstract={We explore whether large language models possess privileged internal knowledge about their own correctness, analogous to human introspection. By evaluating models on conflicting predictions, we discover that LLMs exhibit a domain-specific intuition for factual knowledge tasks that external observers cannot access.}
+}
+
+@inproceedings{ashuach2025crisp,
   title={{CRISP}: Persistent Concept Unlearning via Sparse Autoencoders},
   author={Ashuach, Tomer and Arad, Dana and Mueller, Aaron and Tutek, Martin and Belinkov, Yonatan},
-  journal={arXiv preprint arXiv:2508.13650},
-  year={2025},
+  booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics: ACL 2026},
+  year={2026},
+  month={01},
+  abbr={ACL 2026},
+  website={https://technion-cs-nlp.github.io/CRISP/},
   url={https://arxiv.org/abs/2508.13650},
-  pdf={https://arxiv.org/pdf/2508.13650},
+  pdf={Concept_Unlearning_via_SAE_ACL_2026.pdf},
   code={https://github.com/tomerashuach/CRISP},
   preview={crisp.png},
-  abstract={As large language models (LLMs) are increasingly deployed in real-world applications, the need to selectively remove unwanted knowledge while preserving model utility has become paramount. Recent work has explored sparse autoencoders (SAEs) to perform precise interventions on monosemantic features. However, most SAE-based methods operate at inference time, which does not create persistent changes in the model's parameters. Such interventions can be bypassed or reversed by malicious actors with parameter access. We introduce CRISP, a parameter-efficient method for persistent concept unlearning using SAEs. CRISP automatically identifies salient SAE features across multiple layers and suppresses their activations. We experiment with two LLMs and show that our method outperforms prior approaches on safety-critical unlearning tasks from the WMDP benchmark, successfully removing harmful knowledge while preserving general and in-domain capabilities. Feature-level analysis reveals that CRISP achieves semantically coherent separation between target and benign concepts, allowing precise suppression of the target features.}
+  abstract={We introduce CRISP, a parameter-efficient method leveraging sparse autoencoders to achieve persistent concept unlearning in LLMs. By automatically identifying and suppressing salient features, CRISP successfully removes harmful knowledge while maintaining model utility.}
 }
