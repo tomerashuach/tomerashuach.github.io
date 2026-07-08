@@ -13,7 +13,7 @@ profile:
 social: true # includes social icons at the bottom of the page
 selected_papers: false # Temporarily disabling selected_papers
 announcements:
-  enabled: true # Enable announcements
+  enabled: false # Disable layout-level announcements
 latest_posts:
   enabled: false # Temporarily disabling latest_posts
 ---
@@ -28,8 +28,12 @@ I'm a PhD student at the Technion, advised by Prof [Yonatan Belinkov](https://be
 
 <br>
 
+## <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+
+{% include news.liquid limit=true %}
+
 ## Publications
 
 <div class="publications">
-{% bibliography --query @* %}
+  {% bibliography --query @* %}
 </div>
