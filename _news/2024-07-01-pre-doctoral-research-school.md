@@ -5,6 +5,6 @@ inline: true # This makes it appear on the main page if news are displayed there
 ---
 
 **Pre-Doctoral Research School**
-*The Cornell, Maryland, Max Planck Pre-doctoral Research School in CS (Jul. 2024)*
+_The Cornell, Maryland, Max Planck Pre-doctoral Research School in CS (Jul. 2024)_
 
 Selected as one of 90 top international students for a prestigious program ([https://cmmrs.mpi-sws.org](https://cmmrs.mpi-sws.org)) featuring expert lectures and research mentorship from participating institutions.

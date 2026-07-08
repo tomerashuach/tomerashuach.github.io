@@ -5,4 +5,4 @@ inline: true
 ---
 
 **Boston Talk Tour & ACL 2026 Orals**
-Presented two oral papers—*CRISP* and *Masked by Consensus (PK)*—at ACL 2026. Additionally, completed a research talk tour in Boston, speaking at **MIT**, **Brown**, the **Kempner Institute at Harvard**, **Boston University**, and **Northeastern**.
+Presented two oral papers—_CRISP_ and _Masked by Consensus (PK)_—at ACL 2026. Additionally, completed a research talk tour in Boston, speaking at **MIT**, **Brown**, the **Kempner Institute at Harvard**, **Boston University**, and **Northeastern**.

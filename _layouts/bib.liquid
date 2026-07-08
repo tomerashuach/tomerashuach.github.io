@@ -10,7 +10,10 @@
           {% if site.data.venues[entry.abbr].color != blank %}
             {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
           {%- endif -%}
-          <abbr class="badge rounded px-4 py-1 mb-3" style="font-size: 0.95rem; {% if venue_style %}{{ venue_style | remove: 'style="background-color:' | remove: '"' | prepend: 'background-color:' }}{% endif %}">
+          <abbr
+            class="badge rounded px-4 py-1 mb-3"
+            style="font-size: 0.95rem; {% if venue_style %}{{ venue_style | remove: 'style="background-color:' | remove: '"' | prepend: 'background-color:' }}{% endif %}"
+          >
             {% if site.data.venues[entry.abbr].url %}
               <a href="{{ site.data.venues[entry.abbr].url }}" class="text-white">{{ entry.abbr }}</a>
             {% else %}
@@ -18,10 +21,12 @@
             {% endif %}
           </abbr>
         {% else %}
-          <abbr class="badge rounded px-4 py-1 mb-3 text-white" style="font-size: 0.95rem; background-color: var(--global-theme-color);">{{ entry.abbr }}</abbr>
+          <abbr class="badge rounded px-4 py-1 mb-3 text-white" style="font-size: 0.95rem; background-color: var(--global-theme-color);">
+            {{- entry.abbr -}}
+          </abbr>
         {% endif %}
       {% endif %}
-      
+
       <!-- Image -->
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
@@ -29,7 +34,8 @@
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           <div style="width: 100%;">
-            {% include figure.liquid
+            {%
+              include figure.liquid
               loading="eager"
               path=entry_path
               sizes = "500px"
@@ -155,8 +161,6 @@
       {% endif %}
     </div>
 
-
-
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
@@ -210,7 +214,9 @@
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
       {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0 btn-outline-dark rounded-pill px-3" role="button"><i class="ai ai-arxiv"></i> arXiv</a>
+        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0 btn-outline-dark rounded-pill px-3" role="button"
+          ><i class="ai ai-arxiv"></i> arXiv</a
+        >
       {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
@@ -224,9 +230,14 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0 btn-outline-dark rounded-pill px-3" role="button"><i class="ai ai-arxiv"></i> ArXiv</a>
+          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0 btn-outline-dark rounded-pill px-3" role="button"
+            ><i class="ai ai-arxiv"></i> ArXiv</a
+          >
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0 btn-outline-dark rounded-pill px-3" role="button"
+          <a
+            href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}"
+            class="btn btn-sm z-depth-0 btn-outline-dark rounded-pill px-3"
+            role="button"
             ><i class="ai ai-arxiv"></i> ArXiv</a
           >
         {% endif %}
@@ -247,7 +258,9 @@
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
       {% endif %}
       {% if entry.code %}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0 btn-outline-dark rounded-pill px-3" role="button"><i class="fab fa-github"></i> Code</a>
+        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0 btn-outline-dark rounded-pill px-3" role="button"
+          ><i class="fab fa-github"></i> Code</a
+        >
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
@@ -264,7 +277,9 @@
         {% endif %}
       {% endif %}
       {% if entry.website %}
-        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0 btn-outline-dark rounded-pill px-3" role="button"><i class="fas fa-globe"></i> Project Website</a>
+        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0 btn-outline-dark rounded-pill px-3" role="button"
+          ><i class="fas fa-globe"></i> Project Website</a
+        >
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
