@@ -13,7 +13,7 @@ profile:
 social: true # includes social icons at the bottom of the page
 selected_papers: false # Temporarily disabling selected_papers
 announcements:
-  enabled: false # Temporarily disabling announcements
+  enabled: true # Enable announcements
 latest_posts:
   enabled: false # Temporarily disabling latest_posts
 ---
