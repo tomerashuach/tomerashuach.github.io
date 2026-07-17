@@ -6,19 +6,19 @@ subtitle: Researcher at Technion – Israel Institute of Technology
 profile:
   align: right
   image: me.png
-  image_circular: false
-  more_info: >
-    <p>Technion – Israel Institute of Technology</p>
+  image_circular: true
 
 social: true # includes social icons at the bottom of the page
 selected_papers: false # Temporarily disabling selected_papers
 announcements:
   enabled: false # Disable layout-level announcements
+  scrollable: true
+  limit: 10
 latest_posts:
   enabled: false # Temporarily disabling latest_posts
 ---
 
-I'm a PhD student at the Technion, advised by Prof [Yonatan Belinkov](https://belinkov.com/). My research focuses on the interpretability of language models, with particular emphasis on uncovering their internal mechanisms and understanding how knowledge is acquired and can be unlearned.
+I'm a PhD student at the Technion, advised by Prof [Yonatan Belinkov](https://belinkov.com/). My research focuses on the interpretability of language models, with particular emphasis on uncovering their internal mechanisms and understanding how knowledge is acquired and can be unlearned. Currently, I am also a research intern at Google Research, working with [Jonathan Herzig](https://jonathanherzig.github.io/).
 
 ### Research Interests
 
@@ -28,11 +28,11 @@ I'm a PhD student at the Technion, advised by Prof [Yonatan Belinkov](https://be
 
 <br>
 
-## <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+## <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
 
 {% include news.liquid limit=true %}
 
-## Publications
+## Selected Publications
 
 <div class="publications">
   {% bibliography --query @* %}

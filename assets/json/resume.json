@@ -29,6 +29,24 @@
   },
   "work": [
     {
+      "name": "Google Research",
+      "position": "Research Intern",
+      "url": "",
+      "startDate": "2026-06-01",
+      "endDate": "Present",
+      "summary": "Research internship under [Jonathan Herzig](https://jonathanherzig.github.io/) focusing on language model development.",
+      "highlights": []
+    },
+    {
+      "name": "IBM Research",
+      "position": "Research Intern",
+      "url": "",
+      "startDate": "2025-08-01",
+      "endDate": "2025-11-01",
+      "summary": "Research internship under [Liat Ein-Dor](https://scholar.google.com/citations?user=V_IZ86YAAAAJ&hl=en) focusing on NLP and language models.",
+      "highlights": []
+    },
+    {
       "name": "IBM Research",
       "position": "NLP Researcher",
       "url": "",
