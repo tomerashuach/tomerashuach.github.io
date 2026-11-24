@@ -37,5 +37,5 @@ I'm a PhD student at the Technion, advised by Prof [Yonatan Belinkov](https://be
 ## Selected Publications
 
 <div class="publications">
-  {% bibliography --query @* %}
+  {% bibliography --query @*[selected=true] %}
 </div>
