@@ -102,13 +102,6 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/tomerashuach", "_blank");
         },
       },{
-        id: 'social-x',
-        title: 'X',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://twitter.com/tomerashuach", "_blank");
-        },
-      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
