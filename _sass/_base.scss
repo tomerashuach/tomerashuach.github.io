@@ -1479,3 +1479,9 @@ figure.cover {
 .preview:hover {
   transform: scale(1.05);
 }
+
+// Publication link buttons: keep them visible in dark mode
+html[data-theme="dark"] .publications .links a.btn-outline-dark {
+  color: var(--global-text-color) !important;
+  border-color: var(--global-text-color) !important;
+}
