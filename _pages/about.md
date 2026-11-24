@@ -18,13 +18,13 @@ latest_posts:
   enabled: false # Temporarily disabling latest_posts
 ---
 
-I'm a PhD student at the Technion, advised by Prof [Yonatan Belinkov](https://belinkov.com/) and supported by the [VATAT Excellence Fellowship in AI](https://che.org.il/scholarships/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9C%D7%93%D7%95%D7%A7%D7%98%D7%95%D7%A8%D7%A0%D7%98%D7%99%D7%9D-%D7%9E%D7%A6%D7%98%D7%99%D7%99%D7%A0%D7%99%D7%9D-%D7%91%D7%9E%D7%93%D7%A2%D7%99-%D7%94%D7%A0%D7%AA/). My research focuses on the interpretability of language models, with particular emphasis on uncovering their internal mechanisms and understanding how knowledge is acquired and can be unlearned. Currently, I am also a research intern at Google Research, working with [Jonathan Herzig](https://jonathanherzig.github.io/).
+I'm a PhD student at the Technion, advised by Prof [Yonatan Belinkov](https://belinkov.com/) and supported by the [VATAT Excellence Fellowship in AI](https://che.org.il/scholarships/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9C%D7%93%D7%95%D7%A7%D7%98%D7%95%D7%A8%D7%A0%D7%98%D7%99%D7%9D-%D7%9E%D7%A6%D7%98%D7%99%D7%99%D7%A0%D7%99%D7%9D-%D7%91%D7%9E%D7%93%D7%A2%D7%99-%D7%94%D7%A0%D7%AA/). My research is at the intersection of interpretability and AI safety. I study how language models store knowledge and how it can be unlearned, the mechanisms they learn to solve tasks, and latent reasoning, the hidden computations that never appear in their outputs.
 
 ### Research Interests
 
-- Interpretability in LLMs
-- Knowledge and Unlearning in LLMs
-- AI Safety and Alignment
+- Knowledge and Unlearning
+- Learned Mechanisms
+- Latent Reasoning and Hidden Computation
 
 <br>
 
