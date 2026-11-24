@@ -18,7 +18,7 @@ latest_posts:
   enabled: false # Temporarily disabling latest_posts
 ---
 
-I'm a PhD student at the Technion, advised by Prof [Yonatan Belinkov](https://belinkov.com/) and supported by the [VATAT Excellence Fellowship in AI](https://che.org.il/scholarships/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9C%D7%93%D7%95%D7%A7%D7%98%D7%95%D7%A8%D7%A0%D7%98%D7%99%D7%9D-%D7%9E%D7%A6%D7%98%D7%99%D7%99%D7%A0%D7%99%D7%9D-%D7%91%D7%9E%D7%93%D7%A2%D7%99-%D7%94%D7%A0%D7%AA/). My research is at the intersection of interpretability and AI safety. I study how language models store knowledge and how it can be unlearned, the mechanisms they learn to solve tasks, and latent reasoning, the hidden computations that never appear in their outputs.
+I'm a PhD student at the Technion in the [Belinkov Lab](https://lab.belinkov.com/), advised by Prof [Yonatan Belinkov](https://belinkov.com/) and supported by the [VATAT Excellence Fellowship in AI](https://che.org.il/scholarships/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9C%D7%93%D7%95%D7%A7%D7%98%D7%95%D7%A8%D7%A0%D7%98%D7%99%D7%9D-%D7%9E%D7%A6%D7%98%D7%99%D7%99%D7%A0%D7%99%D7%9D-%D7%91%D7%9E%D7%93%D7%A2%D7%99-%D7%94%D7%A0%D7%AA/). My research is at the intersection of interpretability and AI safety. I study how language models store knowledge and how it can be unlearned, the mechanisms they learn to solve tasks, and latent reasoning, the hidden computations that never appear in their outputs.
 
 <br>
 
