@@ -1485,3 +1485,14 @@ html[data-theme="dark"] .publications .links a.btn-outline-dark {
   color: var(--global-text-color) !important;
   border-color: var(--global-text-color) !important;
 }
+
+// Home page: smaller profile photo, and publications without abstracts
+@media (min-width: 576px) {
+  .profile {
+    width: 20%;
+  }
+}
+
+.publications.compact div.abstract {
+  display: none !important;
+}

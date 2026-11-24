@@ -2,13 +2,13 @@
 layout: about
 title: About
 permalink: /
-subtitle: Researcher at Technion – Israel Institute of Technology
+subtitle: PhD student · Interpretability and AI Safety
 profile:
   align: right
   image: me.png
   image_circular: true
 
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 selected_papers: false # Temporarily disabling selected_papers
 announcements:
   enabled: false # Disable layout-level announcements
@@ -30,6 +30,6 @@ I'm a PhD student at the Technion in the [Belinkov Lab](https://lab.belinkov.com
 
 ## Selected Publications
 
-<div class="publications">
+<div class="publications compact">
   {% bibliography --query @*[selected=true] %}
 </div>
